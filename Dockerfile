@@ -46,6 +46,8 @@ RUN composer install \
 # Permissions
 RUN chown -R www-data:www-data storage bootstrap/cache
 
+
+RUN rm -f /etc/nginx/sites-enabled/default
 # Nginx config
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 
