@@ -53,4 +53,4 @@ COPY docker/nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 
 # Start services
-CMD service nginx start && php-fpm
+CMD sh -c "nginx -g 'daemon off;' & exec php-fpm"
