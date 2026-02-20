@@ -1,9 +1,9 @@
 # ================================
-# Laravel + PHP 8.4 + Nginx
+# Laravel + PHP 8.4 + Nginx (NO DB)
 # ================================
 FROM php:8.4-fpm
 
-# System dependencies
+# System dependencies (NO database libs)
 RUN apt-get update && apt-get install -y \
     nginx \
     git \
@@ -14,12 +14,9 @@ RUN apt-get update && apt-get install -y \
     libfreetype6-dev \
     libonig-dev \
     libzip-dev \
-    libpq-dev \
     zip \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install \
-        pdo \
-        pdo_pgsql \
         mbstring \
         zip \
         exif \
@@ -36,11 +33,15 @@ WORKDIR /var/www/html
 # Copy app
 COPY . .
 
-# Fix Git safe directory warning
+# Prevent git ownership warning
 RUN git config --global --add safe.directory /var/www/html
 
-# Install PHP dependencies
-RUN composer install --no-dev --optimize-autoloader
+# Install PHP deps (NO scripts, NO DB)
+RUN composer install \
+    --no-dev \
+    --optimize-autoloader \
+    --no-scripts \
+    --no-interaction
 
 # Permissions
 RUN chown -R www-data:www-data storage bootstrap/cache
@@ -51,5 +52,5 @@ COPY docker/nginx.conf /etc/nginx/nginx.conf
 # Expose web port
 EXPOSE 80
 
-# Start services (NO MIGRATIONS HERE)
+# Start services
 CMD service nginx start && php-fpm
