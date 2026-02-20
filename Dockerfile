@@ -47,7 +47,7 @@ RUN composer install \
 RUN chown -R www-data:www-data storage bootstrap/cache
 
 # Nginx config
-COPY docker/nginx.conf /etc/nginx/nginx.conf
+COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose web port
 EXPOSE 80
