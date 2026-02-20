@@ -546,42 +546,7 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <h2 class="section-title">Our Services</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <i class="fas fa-industry service-icon"></i>
-                <h3>Metal Fabrication</h3>
-                <p>Custom metal fabrication services with precision cutting, welding, and forming to meet your exact specifications.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-cogs service-icon"></i>
-                <h3>CNC Machining</h3>
-                <p>Advanced CNC machining capabilities for complex parts and components with tight tolerances and superior finish.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-hammer service-icon"></i>
-                <h3>Structural Steel</h3>
-                <p>Complete structural steel solutions for construction projects, from design consultation to final installation.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-shield-alt service-icon"></i>
-                <h3>Metal Finishing</h3>
-                <p>Professional metal finishing services including powder coating, anodizing, and surface treatments for durability.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-tools service-icon"></i>
-                <h3>Custom Solutions</h3>
-                <p>Tailored metalworking solutions for unique projects and specialized applications across various industries.</p>
-            </div>
-            <div class="service-card">
-                <i class="fas fa-shipping-fast service-icon"></i>
-                <h3>Quick Turnaround</h3>
-                <p>Fast and reliable service delivery without compromising on quality, meeting your project deadlines consistently.</p>
-            </div>
-        </div>
-    </section>
+
 
     <!-- About Section -->
     <section id="about" class="about">
@@ -589,10 +554,9 @@
         <div class="about-content">
             <div class="about-text">
                 <h2>Excellence in Metal Manufacturing</h2>
-                <p>With over two decades of experience in the metalworking industry, MetalWorks Pro has established itself as a trusted partner for businesses seeking premium metal solutions.</p>
-                <p>Our state-of-the-art facility, skilled craftsmen, and commitment to innovation enable us to deliver exceptional results that meet the highest standards of quality and precision.</p>
-                <p>From small-scale custom projects to large industrial contracts, we approach every job with the same dedication to excellence and attention to detail.</p>
-                
+                <p>BSB Metal & Trading is an international metal trading firm headquartered in Toronto, Canada. We specialize in sourcing and supplying ferrous and non-ferrous scrap metals to global markets including India, Asia, and the Middle East.
+
+With a strong focus on compliance, inspection standards, and secure payment structures, we ensure smooth transactions between buyers and suppliers..</p>
                 <div class="stats">
                     <div class="stat-item">
                         <div class="stat-number">500+</div>
@@ -615,6 +579,44 @@
             <div class="about-image">
                 <i class="fas fa-industry"></i>
             </div>
+        </div>
+    </section>
+        <!-- Services Section -->
+    
+
+    <section id="services" class="services">
+        <h2 class="section-title">We Believe In</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-industry service-icon"></i>
+                <h3>Long-term contracts</h3>
+                <!-- <p>Custom metal fabrication services with precision cutting, welding, and forming to meet your exact specifications.</p> -->
+            </div>
+            <div class="service-card">
+                <i class="fas fa-cogs service-icon"></i>
+                <h3>Transparent documentation</h3>
+                <!-- <p>Advanced CNC machining capabilities for complex parts and components with tight tolerances and superior finish.</p> -->
+            </div>
+            <div class="service-card">
+                <i class="fas fa-hammer service-icon"></i>
+                <h3>International inspection standards</h3>
+                <!-- <p>Complete structural steel solutions for construction projects, from design consultation to final installation.</p> -->
+            </div>
+            <div class="service-card">
+                <i class="fas fa-shield-alt service-icon"></i>
+                <h3>Risk-managed payment structures</h3>
+                <!-- <p>Professional metal finishing services including powder coating, anodizing, and surface treatments for durability.</p> -->
+            </div>
+            <div class="service-card">
+                <i class="fas fa-tools service-icon"></i>
+                <h3>Consistent monthly supply chains</h3>
+                <!-- <p>Tailored metalworking solutions for unique projects and specialized applications across various industries.</p> -->
+            </div>
+            <!-- <div class="service-card">
+                <i class="fas fa-shipping-fast service-icon"></i>
+                <h3>Quick Turnaround</h3>
+                <p>Fast and reliable service delivery without compromising on quality, meeting your project deadlines consistently.</p>
+            </div> -->
         </div>
     </section>
 
