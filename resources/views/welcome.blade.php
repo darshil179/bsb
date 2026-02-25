@@ -392,8 +392,8 @@
     </video>
 
     <div class="hero-content" id="heroContent">
-      <h1>Positioned for Sustainability</h1>
-      <p>We are a global leader in supply chain management of critical and recycled metals — connecting supply and demand to enable innovation in sustainable technologies worldwide.</p>
+      <h1>Global Metal Trading, Built on Compliance and Consistency</h1>
+      <p>BSB Metal & Trading sources and supplies ferrous and non-ferrous metals and scrap to verified industrial buyers worldwide—focused on transparent execution, quality control, and secure trade terms.</p>
       <div>
         <a href="#services" class="btn btn-primary">Our Services</a>
         <a href="#contact" class="btn">Get in Touch</a>
@@ -406,7 +406,7 @@
     <div class="content-wrapper">
       <h2>About Us</h2>
       <p class="lead">
-        For over 30 years, we have been a trusted partner in the global metals industry. Headquartered in North America and operating across more than 50 countries, we specialize in critical metals, recycled materials, and sustainable supply chains.
+        BSB Metal & Trading is a Toronto-based international trading company focused on ferrous and non-ferrous metals and scrap. We connect verified suppliers with established downstream buyers through disciplined execution, strong documentation, and secure trade structures.
       </p>
       <p class="lead">
         We bridge regions of abundance with areas of high demand — delivering copper, aluminium, zinc, nickel, steel, and more — while prioritizing carbon neutrality and responsible sourcing.
@@ -424,16 +424,26 @@
 
       <div class="services-grid">
         <div class="service-card">
-          <h3>Supply Chain Management</h3>
-          <p>Sourcing, marketing, financing, logistics, inventory & risk hedging across continents.</p>
+          <h3>Global Sourcing & Supply Programs</h3>
+          <p>We source metals and scrap from reliable yards and networks and structure monthly supply programs for industrial buyers.</p>
         </div>
         <div class="service-card">
-          <h3>Recycled & Primary Metals</h3>
-          <p>Major supplier of recycled copper and critical materials for sustainable production.</p>
+          <h3>Import/Export Trade Execution</h3>
+          <p>Support for Incoterms® 2020 (FOB/CFR/CIF), shipping coordination, and document handling.</p>
         </div>
         <div class="service-card">
-          <h3>Strategic Partnerships</h3>
+          <h3>Quality & Inspection Coordination</h3>
           <p>Long-term collaborations enabling large-scale sustainable metal output.</p>
+        </div>
+        <div class="service-card">
+          <h3>Documentation Management</h3>
+          <p>We coordinate standard export documentation such as:
+	•	Commercial Invoice
+	•	Packing List
+	•	Bill of Lading
+	•	Certificate of Origin
+	•	Inspection Certificate (if required)
+	•	Radiation-Free Certificate (when applicable).</p>
         </div>
       </div>
 
@@ -450,9 +460,9 @@
       </p>
 
       <div class="contact-info">
-        <p><strong>Email:</strong> info@yourcompany.com</p>
-        <p><strong>Phone:</strong> +1 (314) 863-6699</p>
-        <p><strong>Address:</strong><br>7733 Forsyth Blvd., Suite 300<br>St. Louis, MO 63105, USA</p>
+        <p><strong>Email:</strong> saurav.bhuva@bsbmetals.com</p>
+        <p><strong>Phone:</strong> +1 514 629 6870</p>
+        <p><strong>Address:</strong><br>Toronto, Canada</p>
       </div>
 
       <form id="contact-form">
