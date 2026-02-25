@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Metals Company - Responsive Single Page</title>
+  <title>BSB Metal & Trading</title>
   <style>
     * {
       margin: 0;
@@ -368,7 +368,7 @@
   <!-- Navigation -->
   <nav id="nav">
     <div class="nav-container">
-      <a href="#" class="logo">Your Metals Co.</a>
+      <a href="#" class="logo">BSB Metal & Trading</a>
 
       <div class="nav-links" id="navLinks">
         <a href="#home">Home</a>
@@ -481,7 +481,7 @@
   </section>
 
   <footer>
-    <p>© 2026 Your Metals Company — Toronto, Canada | St. Louis, USA</p>
+    <p>© 2026 BSB Metal & Trading — Toronto, Canada</p>
   </footer>
 
   <script>
