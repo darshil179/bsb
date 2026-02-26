@@ -1,0 +1,13 @@
+name: Ping BSB App
+
+on:
+  schedule:
+    - cron: "*/10 12-23 * * *"  # Every 5 mins from 8 AM–7:59 PM ET (12–23 UTC)
+  workflow_dispatch:
+
+jobs:
+  curl-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl portfolio
+        run: curl -s -o /dev/null -w "%{http_code}\n" https://bsb-4.onrender.com/
