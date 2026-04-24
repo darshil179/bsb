@@ -96,7 +96,9 @@
 <div class="ticker-bar"><div class="ticker-track" id="tickerTrack"></div></div>
 <nav>
   <a class="logo" href="{{ route('home') }}">
-    <div class="logo-mark"><span>B</span></div>
+    <div class="logo-mark">
+      <img src="logo.png" alt="BSB Metal & Trading Logo" width="30" height="30">
+  </div>
     <div class="logo-text">
       <span class="brand">BSB <em>Metal</em> &amp; Trading</span>
       <span class="tagline">Toronto, Canada &middot; Global Trade</span>
