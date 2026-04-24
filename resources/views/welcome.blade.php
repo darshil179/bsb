@@ -97,7 +97,7 @@
 <nav>
   <a class="logo" href="{{ route('home') }}">
     <div class="logo-mark">
-      <img src="logo-BSB.jpeg" alt="BSB Metal & Trading Logo" width="30" height="30">
+      <img src="{{ asset('images/logo-BSB.jpeg') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
   </div>
     <div class="logo-text">
       <span class="brand">BSB <em>Metal</em> &amp; Trading</span>
