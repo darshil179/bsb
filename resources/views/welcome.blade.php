@@ -3,7 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BSB Metal &amp; Trading — Global Metal Trading</title>
+<title>BSB Metal & Trading — Global Metal Trading</title>
+
+<!-- Favicon (Tab Icon) -->
+<link rel="icon" type="image/jpeg" sizes="32x32" href="{{ asset('images/logo-BSB.jpeg') }}">
+<link rel="icon" type="image/jpeg" sizes="16x16" href="{{ asset('images/logo-BSB.jpeg') }}">
+<link rel="shortcut icon" href="{{ asset('images/logo-BSB.jpeg') }}">
+
+<!-- For Apple devices -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/logo-BSB.jpeg') }}">
+
+<!-- Meta tags for Google Search -->
+<meta name="description" content="BSB Metal & Trading sources and supplies ferrous and non-ferrous metals and scrap to verified industrial buyers worldwide. Global metal trading built on compliance and consistency.">
+<meta name="keywords" content="metal trading, scrap metal, aluminium scrap, UBC, copper scrap, ferrous metals, HMS, metal supplier, Toronto">
+
+<!-- Open Graph for better social sharing (also helps Google) -->
+<meta property="og:title" content="BSB Metal & Trading — Global Metal Trading">
+<meta property="og:description" content="Global metal trading built on compliance and consistency. Ferrous and non-ferrous metals worldwide.">
+<meta property="og:image" content="{{ asset('images/logo-BSB.jpeg') }}">
+<meta property="og:url" content="https://www.bsbmetals.com/">
+<meta property="og:type" content="website">
+
 <link rel="stylesheet" href="{{ asset('css/shared.css') }}">
 <style>
 .hero{min-height:92vh;background:var(--dark);display:grid;grid-template-columns:1fr 1fr;position:relative;overflow:hidden;}
