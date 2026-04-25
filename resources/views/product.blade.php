@@ -31,7 +31,7 @@
 <body>
 <div class="ticker-bar"><div class="ticker-track" id="tickerTrack"></div></div>
 <nav><a class="logo" href="{{ route('home') }}">
-<div class="logo-mark">
+<div class=" ">
       <img src="{{ asset('images/BSB.png') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
     </div>  
 <div class="logo-text"><span class="brand">BSB <em>Metal</em> &amp; Trading</span><span class="tagline">Toronto, Canada &middot; Global Trade</span></div></a><ul class="nav-links"><li><a href="{{ route('home') }}">Home</a></li><li><a href="{{ route('about') }}">About</a></li><li><a href="{{ route('products') }}" class="active">Products</a></li><li><a href="{{ route('services') }}">Services</a></li><li><a href="{{ route('process') }}">Process</a></li><li><a href="{{ route('compliance') }}">Compliance</a></li><li><a href="{{ route('sectors') }}">Sectors</a></li><li><a href="{{ route('faq') }}">FAQ</a></li><li><a href="{{ route('contact') }}" class="nav-cta">Contact</a></li></ul><button class="hamburger" onclick="document.getElementById('mobileMenu').classList.add('open')"><span></span><span></span><span></span></button></nav>
@@ -76,7 +76,7 @@
 <div class="cta-band"><h2>Looking for a specific grade<br><em>or monthly program?</em></h2><div class="cta-band-actions"><a class="btn-dark" href="{{ route('contact') }}">Submit Your Requirements</a></div></div>
 <footer><div class="footer-top">
 <div class="footer-brand"><a class="logo" href="{{ route('home') }}">
-<div class="logo-mark">
+<div class=" ">
       <img src="{{ asset('images/BSB.png') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
     </div>  
 <div class="logo-text"><span class="brand" style="color:var(--white)">BSB <em>Metal</em> &amp; Trading</span><span class="tagline">Toronto, Canada &middot; Global Trade</span></div></a><p>Sourcing and supplying ferrous and non-ferrous metals and scrap to verified industrial buyers worldwide &mdash; built on compliance, documentation, and consistent execution.</p></div>

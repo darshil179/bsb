@@ -30,9 +30,9 @@ body { font-family:'Montserrat',sans-serif; background:var(--cream); color:var(-
 /* NAV */
 nav { background:var(--white); border-bottom:1px solid rgba(0,0,0,0.07); position:sticky; top:0; z-index:500; padding:0 60px; display:flex; align-items:center; justify-content:space-between; height:70px; box-shadow:0 2px 24px rgba(0,0,0,0.06); }
 .logo { display:flex; align-items:center; gap:12px; text-decoration:none; }
-.logo-mark { width:36px; height:36px; background:var(--dark); display:flex; align-items:center; justify-content:center; position:relative; }
-.logo-mark::after { content:''; position:absolute; inset:3px; border:1.5px solid var(--gold); }
-.logo-mark span { font-family:'Cormorant Garamond',serif; color:var(--gold); font-size:15px; font-weight:700; position:relative; z-index:1; }
+.  { width:36px; height:36px; background:var(--dark); display:flex; align-items:center; justify-content:center; position:relative; }
+. ::after { content:''; position:absolute; inset:3px; border:1.5px solid var(--gold); }
+.  span { font-family:'Cormorant Garamond',serif; color:var(--gold); font-size:15px; font-weight:700; position:relative; z-index:1; }
 .logo-text .brand { font-size:12.5px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--text-dark); display:block; line-height:1.2; }
 .logo-text .brand em { color:var(--gold); font-style:normal; }
 .logo-text .tagline { font-size:8px; letter-spacing:0.2em; text-transform:uppercase; color:var(--text-light); display:block; }

@@ -40,7 +40,7 @@
 <div class="ticker-bar"><div class="ticker-track" id="tickerTrack"></div></div>
 <nav>
   <a class="logo" href="{{ route('home') }}">
-  <div class="logo-mark">
+  <div class=" ">
       <img src="{{ asset('images/BSB.png') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
     </div>  
   <div class="logo-text"><span class="brand">BSB <em>Metal</em> &amp; Trading</span><span class="tagline">Toronto, Canada &middot; Global Trade</span></div></a>
@@ -119,7 +119,7 @@
 <footer>
   <div class="footer-top">
     <div class="footer-brand"><a class="logo" href="{{ route('home') }}">
-    <div class="logo-mark">
+    <div class=" ">
       <img src="{{ asset('images/BSB.png') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
     </div>  
     <div class="logo-text"><span class="brand" style="color:var(--white)">BSB <em>Metal</em> &amp; Trading</span><span class="tagline">Toronto, Canada &middot; Global Trade</span></div></a><p>Sourcing and supplying ferrous and non-ferrous metals and scrap to verified industrial buyers worldwide &mdash; built on compliance, documentation, and consistent execution.</p></div>
