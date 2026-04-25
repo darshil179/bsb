@@ -41,7 +41,7 @@
 <nav>
   <a class="logo" href="{{ route('home') }}">
   <div class="logo-mark">
-      <img src="{{ asset('images/logo-BSB.jpeg') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
+      <img src="{{ asset('images/BSB.png') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
     </div>  
   <div class="logo-text"><span class="brand">BSB <em>Metal</em> &amp; Trading</span><span class="tagline">Toronto, Canada &middot; Global Trade</span></div></a>
   <ul class="nav-links"><li><a href="{{ route('home') }}">Home</a></li>
@@ -120,7 +120,7 @@
   <div class="footer-top">
     <div class="footer-brand"><a class="logo" href="{{ route('home') }}">
     <div class="logo-mark">
-      <img src="{{ asset('images/logo-BSB.jpeg') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
+      <img src="{{ asset('images/BSB.png') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
     </div>  
     <div class="logo-text"><span class="brand" style="color:var(--white)">BSB <em>Metal</em> &amp; Trading</span><span class="tagline">Toronto, Canada &middot; Global Trade</span></div></a><p>Sourcing and supplying ferrous and non-ferrous metals and scrap to verified industrial buyers worldwide &mdash; built on compliance, documentation, and consistent execution.</p></div>
     <div class="footer-col"><h4>Pages</h4><ul><li><a href="{{ route('home') }}">Home</a></li><li><a href="{{ route('about') }}">About</a></li><li><a href="{{ route('products') }}">Products</a></li><li><a href="{{ route('services') }}">Services</a></li><li><a href="{{ route('process') }}">Process</a></li><li><a href="{{ route('compliance') }}">Compliance</a></li><li><a href="{{ route('sectors') }}">Sectors</a></li><li><a href="{{ route('faq') }}">FAQ</a></li><li><a href="{{ route('contact') }}">Contact</a></li></ul></div>

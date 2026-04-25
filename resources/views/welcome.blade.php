@@ -6,12 +6,12 @@
 <title>BSB Metal & Trading — Global Metal Trading</title>
 
 <!-- Favicon (Tab Icon) -->
-<link rel="icon" type="image/jpeg" sizes="32x32" href="{{ asset('images/logo-BSB.jpeg') }}">
-<link rel="icon" type="image/jpeg" sizes="16x16" href="{{ asset('images/logo-BSB.jpeg') }}">
-<link rel="shortcut icon" href="{{ asset('images/logo-BSB.jpeg') }}">
+<link rel="icon" type="image/jpeg" sizes="32x32" href="{{ asset('images/BSB.png') }}">
+<link rel="icon" type="image/jpeg" sizes="16x16" href="{{ asset('images/BSB.png') }}">
+<link rel="shortcut icon" href="{{ asset('images/BSB.png') }}">
 
 <!-- For Apple devices -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/logo-BSB.jpeg') }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/BSB.png') }}">
 
 <!-- Meta tags for Google Search -->
 <meta name="description" content="BSB Metal & Trading sources and supplies ferrous and non-ferrous metals and scrap to verified industrial buyers worldwide. Global metal trading built on compliance and consistency.">
@@ -20,7 +20,7 @@
 <!-- Open Graph for better social sharing (also helps Google) -->
 <meta property="og:title" content="BSB Metal & Trading — Global Metal Trading">
 <meta property="og:description" content="Global metal trading built on compliance and consistency. Ferrous and non-ferrous metals worldwide.">
-<meta property="og:image" content="{{ asset('images/logo-BSB.jpeg') }}">
+<meta property="og:image" content="{{ asset('images/BSB.png') }}">
 <meta property="og:url" content="https://www.bsbmetals.com/">
 <meta property="og:type" content="website">
 
@@ -117,7 +117,7 @@
 <nav>
   <a class="logo" href="{{ route('home') }}">
     <div class="logo-mark">
-      <img src="{{ asset('images/logo-BSB.jpeg') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
+      <img src="{{ asset('images/BSB.png') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
     </div>
     <div class="logo-text">
       <span class="brand">BSB <em>Metal</em> &amp; Trading</span>
@@ -257,7 +257,7 @@
     <div class="footer-brand">
       <a class="logo" href="{{ route('home') }}">
       <div class="logo-mark">
-      <img src="{{ asset('images/logo-BSB.jpeg') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
+      <img src="{{ asset('images/BSB.png') }}" alt="BSB Metal & Trading Logo" width="30" height="30">
     </div>  
       <div class="logo-text"><span class="brand" style="color:var(--white)">BSB <em>Metal</em> &amp; Trading</span><span class="tagline">Toronto, Canada &middot; Global Trade</span></div></a>
       <p>Sourcing and supplying ferrous and non-ferrous metals and scrap to verified industrial buyers worldwide &mdash; built on compliance, documentation, and consistent execution.</p>
